@@ -12,7 +12,6 @@ Vagrant::Config.run do |config|
 
   # Enable and configure the chef solo provisioner
   config.vm.provision :chef_solo do |chef|
-    chef.add_recipe 'apache2'
     chef.add_recipe 'apt'
     chef.add_recipe 'curl'
     chef.add_recipe 'htop'
