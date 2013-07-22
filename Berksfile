@@ -1,6 +1,5 @@
 site :opscode
 
-cookbook 'apache2'
 cookbook 'apt'
 cookbook 'curl'
 cookbook 'htop'
